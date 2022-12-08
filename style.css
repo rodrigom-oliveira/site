@@ -130,7 +130,7 @@ header .navegation li a:hover{
 }
 .icons li a{
     display: inline-block;
-    margin-left: 20%;
+    margin-left: 100%;
     background: #3f3f65;
     width: 50px;
     height: 50px;
