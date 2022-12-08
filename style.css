@@ -82,13 +82,14 @@ header .navegation li a:hover{
 }
 .content .text p{
     text-align: justify;
-    color: aliceblue;
+    color: rgba(240, 248, 255, 0.685);
     font-size: 1.1em;
     line-height: 1.5em;
 }
 .content .text p span2{
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: aliceblue;
+    opacity: .9;
 }
 .content .text a{
     display: inline-block;
