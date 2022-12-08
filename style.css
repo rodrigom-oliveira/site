@@ -59,7 +59,7 @@ header .navegation li a:hover{
 }
 .content{
     position: relative;
-    left: -150px;
+    left: 50%;
     width: 90%;
     display: flex;
     align-items: center;
