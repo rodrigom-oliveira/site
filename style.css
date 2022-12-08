@@ -117,11 +117,12 @@ header .navegation li a:hover{
 }
 .icons{
     position: absolute;
-    bottom: 40px;
-    left: 77%;
+    bottom: 5%;
+    left: 76%;
+    width: 10%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 .icons li{
     list-style: none;
