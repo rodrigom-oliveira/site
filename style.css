@@ -116,9 +116,9 @@ header .navegation li a:hover{
     border-radius: 5px;
 }
 .icons{
-    position: absolute;
+    position: relative;
     bottom: 40px;
-    left: 80%;
+    left: 76.5%;
     display: flex;
     justify-content: center;
     align-items: center;
