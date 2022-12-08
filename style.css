@@ -21,7 +21,7 @@ header{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 98.5%;
     padding: 5px 5px;
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ header .logo{
 
 }
 header .navegation ul{
-    right: 5%;
+    left: 0px;
     position: relative;
     display: flex;
 }
@@ -118,7 +118,7 @@ header .navegation li a:hover{
 .icons{
     position: absolute;
     bottom: 40px;
-    margin-left: 77%;
+    left: 77%;
     display: flex;
     justify-content: center;
     align-items: center;
