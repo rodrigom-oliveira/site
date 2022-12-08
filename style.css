@@ -34,7 +34,6 @@ header .logo{
 
 }
 header .navegation ul{
-    left: 50%;
     position: relative;
     display: flex;
 }
