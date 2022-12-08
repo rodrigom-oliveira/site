@@ -118,8 +118,8 @@ header .navegation li a:hover{
 .icons{
     position: absolute;
     bottom: 40px;
-    left: 76.5%;
-    display: static;
+    left: 1200px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
