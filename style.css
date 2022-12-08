@@ -129,7 +129,7 @@ header .navegation li a:hover{
     list-style: none;
 }
 .icons li a{
-    display: inline-block;
+    display: flex;
     margin-left: 50px;
     background: #3f3f65;
     width: 50px;
