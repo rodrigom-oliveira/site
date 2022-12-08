@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #141034;
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98.5%;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    position: relative;
+    max-width: 200px;
+    padding: 20px 25px;
+
+}
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation  li{
+    list-style: none;
+}
+header .navegation li a{
+    display: inline-block;
+    margin-top: 0px;
+    color: aliceblue;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 20px;
+    border-radius: 5px;
+    transition: 0.3;
+    padding: 8px 15px;
+}
+header .navegation li a:hover{
+    background-color: #3f3f65;
+    color: aliceblue
+}
+.container {
+    color: aliceblue;
+    width: 100%;
+    min-height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141034;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.662) 0px 5px 15px;
+    cursor: pointer;
+    margin-bottom: -70px;
+    left: -10px;
+    margin-left:15px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#3f3f65, #232337);
+    transition: all .5s;
+}
+
+.card:hover {
+    background-image: linear-gradient(#70bf52, #012300);
+}
+
+/* ZÉ */
+
+.card .img0 {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-image: url(images/zé.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: unset;
+}
+
+/* RODRY */
+
+.card .img1 {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-image: url(images/rodrigo.jpeg);
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: unset;
+}
+
+/* KIKO */
+
+.card .img2 {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-image: url(images/kiko.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: unset;
+}
+
+/* DAVIDE */
+
+.card .img3 {
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-image: url(images/davide.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: unset;
+  
+}
+
+/* ______________________________________________ */
+
+.card .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card:hover .content {
+    height: 305px;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card .content p {
+    margin: 0;
+}
+
+.card .content .name {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card .content .desc {
+    font-size: 15px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+}
+
+.card .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card:hover .arrow {
+    transform: rotate(0);
+}
+
+.card .arrow span {
+    font-size: 24px;
+}
