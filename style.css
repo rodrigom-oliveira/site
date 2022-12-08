@@ -116,10 +116,10 @@ header .navegation li a:hover{
     border-radius: 5px;
 }
 .icons{
-    position: relative;
+    position: absolute;
     bottom: 40px;
     left: 76.5%;
-    display: flex;
+    display: static;
     justify-content: center;
     align-items: center;
 }
