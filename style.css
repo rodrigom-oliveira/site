@@ -74,13 +74,40 @@ header .navegation li a:hover{
     color: aliceblue;
     font-size: 3em;
     margin-bottom: 0px;
-    line-height: 2.3em;
+    line-height: 2.6em;
     font-weight: 1200em;
 }
 .content .text h2 span{
-    font-size: 3.75em;
-    color: #70bf52;
+    position: relative;
+    -webkit-text-stroke: 0.1vw #383d52;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    color: #141034;
 }
+.content .text h2 span::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 24%;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #70bf52;
+    -webkit-text-stroke: 0vw #383d52;
+    overflow: hidden;
+    animation: animate 30s linear infinite;
+}
+@keyframes animate 
+{
+    0%,10%,100%
+    {
+        width: 0%;
+    }
+    10%,30%,70%
+    {
+        width: 100%;
+    }
+}
+
 .content .text p{
     text-align: justify;
     color: rgba(240, 248, 255, 0.685);
@@ -109,11 +136,11 @@ header .navegation li a:hover{
 }
 .content .video{
     position: relative;
-    box-shadow: #70bf52;
     left: 10px;
     bottom: 5px;
     width: 650px;
     border-radius: 5px;
+    
 }
 .icons{
     position: absolute;
@@ -129,7 +156,7 @@ header .navegation li a:hover{
     list-style: none;
 }
 .icons li a{
-    display: insine-block;
+    display: inline-block;
     margin-left: 50px;
     background: #3f3f65;
     width: 50px;
