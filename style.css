@@ -68,7 +68,7 @@ header .navegation li a:hover{
 .content .text{
     position: relative;
     max-width: 640px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 .content .text h2{
     color: aliceblue;
