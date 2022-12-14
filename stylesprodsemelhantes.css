@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 section{
     position: relative;
     width: 100%;
@@ -29,12 +32,14 @@ header{
 }
 header .logo{
     position: relative;
+    top: -42px;
     max-width: 200px;
     padding: 20px 25px;
 
 }
 header .navegation ul{
     position: relative;
+    top: -45px;
     display: flex;
 }
 header .navegation  li{
@@ -56,51 +61,73 @@ header .navegation li a:hover{
     background-color: #3f3f65;
     color: aliceblue
 }
-.content{
+.image img{
     position: relative;
-    width: 90%;
     display: flex;
+    margin-left: 60px;
+    top: -120px;
+    width: 550px;
+    border-radius: 5px;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0px 0px 10px #73f340;
 }
-.content .text{
-    position: relative;
-    max-width: 640px;
-    margin-right: 20px;
+.container1{
+    position: absolute;
+    width: 1100px;
+    height: 300px;
+    top: 450px;
+    left: 160px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #70bf52;
+    margin: 2rem auto;
+    overflow: hidden;
 }
-.content .text h2{
-    color: aliceblue;
-    font-size: 3em;
-    margin-bottom: 0px;
-    line-height: 2.3em;
-    font-weight: 1200em;
-}
-.content .text h2 span{
-    font-size: 2.75em;
-    color: #70bf52;
-}
-.content .text p{
+.container1 .text p{
     text-align: justify;
     color: aliceblue;
-    font-size: 1.1em;
+    font-size: 1.3em;
     line-height: 1.5em;
+    margin: 15px;
+    margin-top: 5px;
 }
-.content .text p span2{
-    font-size: 1.2em;
+section:nth-of-type(2) {
+    background-color: #3f3f65;
+    align-items: center;
+}
+section:nth-of-type(2) h1{
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 135px;
+    margin-top: -600px;
+    font-size: 145px;
+    color: #70bf52;
+    text-shadow: 0px 0px 12px #000000;
+}
+section:nth-of-type(2) img{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 325px;
+    margin-top: -50px;
+}
+section:nth-of-type(2) .container3{
+    position:absolute;
+    width: 1200px;
+    height: 155px;
+    bottom: 35px;
+    left: 110px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #70bf52;
+    margin: 2rem auto;
+    overflow: hidden;
+    align-items: center;
+}
+section:nth-of-type(2) .text p{
+    text-align: justify;
     color: aliceblue;
-}
-.content .text a{
-    display: inline-block;
-    margin-top: 50px;
-    padding: 10px 25px;
-    background: #3f3f65;
-    color: aliceblue;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.3s ease-in-out;
-}
-.content .text a:hover{
-    transform: translateY(-10px);
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 15px;
+    margin-top: 5px;
 }
