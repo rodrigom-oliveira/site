@@ -77,7 +77,6 @@ header .navegation li a:hover{
     background-color: #141034;
     height: 100%;
     width: 100%;
-    transition: all 0.4s ease;
 }
 .container .images input{
     display: none;
