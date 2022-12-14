@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 section{
     position: relative;
     width: 100%;
@@ -29,12 +32,14 @@ header{
 }
 header .logo{
     position: relative;
+    top: -42px;
     max-width: 200px;
     padding: 20px 25px;
 
 }
 header .navegation ul{
     position: relative;
+    top: -45px;
     display: flex;
 }
 header .navegation  li{
@@ -62,7 +67,7 @@ header .navegation li a:hover{
     height: 650px;
     background-color: #141034;
     border-radius: 15px;
-    box-shadow: 0px 0px 50px #73f340;
+    box-shadow: 0px 0px 40px #73f340;
     margin: 2rem auto;
     overflow: hidden;
 }
@@ -93,6 +98,7 @@ header .navegation li a:hover{
     width: 20px;
     border-radius: 50%;
     border: solid aliceblue 3px;
+    color: aliceblue;
     cursor: pointer;
     transition: all 0.4s ease;
     margin: 5px;
@@ -112,4 +118,82 @@ header .navegation li a:hover{
 }
 #img5:checked ~ .m5 {
     margin-left: -400%;
+}
+section:nth-of-type(2) {
+    background-color: #1c1841;
+}
+section:nth-of-type(2)  h1{
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: -40px;
+    margin-top: -950px;
+    font-size: 145px;
+    color: #70bf52;
+    text-shadow: 0px 0px 12px #000000;
+}
+section:nth-of-type(2) .container2{
+    position: absolute;
+    width: 1200px;
+    height: 265px;
+    top: 200px;
+    left: 110px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #70bf52;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+section:nth-of-type(2) .text p{
+    text-align: justify;
+    color: aliceblue;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 15px;
+    margin-top: 5px;
+}
+section:nth-of-type(2) img{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 500px;
+}
+section:nth-of-type(3) {
+    background-color: #141034;
+    align-items: center;
+}
+section:nth-of-type(3) h1{
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 135px;
+    margin-top: -600px;
+    font-size: 145px;
+    color: #70bf52;
+    text-shadow: 0px 0px 12px #000000;
+}
+section:nth-of-type(3) img{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    margin-left: 325px;
+    margin-top: -50px;
+}
+section:nth-of-type(3) .container3{
+    position:absolute;
+    width: 1200px;
+    height: 155px;
+    bottom: 35px;
+    left: 110px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #70bf52;
+    margin: 2rem auto;
+    overflow: hidden;
+    align-items: center;
+}
+section:nth-of-type(3) .text p{
+    text-align: justify;
+    color: aliceblue;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 15px;
+    margin-top: 5px;
 }
